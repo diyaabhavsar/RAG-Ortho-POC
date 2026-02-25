@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.pytest_cache/
+
+# Node.js / React
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.eslintcache
+
+# RAG / Vector Database
+chroma_db/
+backend-pyton/chroma_db/
